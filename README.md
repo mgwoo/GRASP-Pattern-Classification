@@ -4,48 +4,7 @@ This is binary distributation pages for GRASP based Layout Pattern Classificatio
 ## Check the Usage
     $ ./patternClassify -help
 
-will print out
-
-### Usage:
-patternClassify -input [FileLoc] -output [FileLoc] -acc [Ratio] -ecc [nm] -n [num] -alpha [Ratio] -mt [num] -cwidth [nm] -cheight [nm]
-
-### Options:
-Note: options are case-insensitive and can be shortened as long they remain unique.
-
-#### -help
-Print Manual and Exit
-
-#### -input [File Location]
-Set input GDS File locationd
-
-#### -output [File Location]
-Set Location of Output of Clustered Clip
-
-#### -acc [ACC Ratio]
-Set ACC Rate
-
-#### -ecc [ECC Length/nm]
-Set ECC Length in nm Units
-
-#### -n [Num]
-Set the trial number for GRASP
-Default trial is 100
-
-#### -alpha [Ratio]
-The alpha is used to generate the range of RCL
-Default alpha is 0.9
-
-#### -mt [Num]
-Enable Multi-Thread Mode
-Default Thread Number is 1
-
-#### -cwidth [Clip Width]
-Set Clip Width in nm units
-Default Clip Width is 200nm
-
-#### -cheight [Clip Height]
-Set Clip Height in nm units
-Default Clip Height is 200nm
+will print out all usages
 
 ## GDS Files
 [(Link)](http://cad-contest-2016.el.cycu.edu.tw/Problem_C/default.html)
