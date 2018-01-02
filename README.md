@@ -49,9 +49,9 @@ will print out
             Default Clip Height is 200nm
 
 ## GDS Files
-    [Link](http://cad-contest-2016.el.cycu.edu.tw/Problem_C/default.html)
+[Link](http://cad-contest-2016.el.cycu.edu.tw/Problem_C/default.html)
 
-## Example
+## Usage Example 
     // testcase4 with 250 X 250, ACC 100% and 8 Threads.
     $ ./patternClassify -input ../testcase/testcase4/testcase4.gds -output ../Output/testcase4.gds -mt 8 -acc 100 -cwidth 250 -cheight 250
     
@@ -60,4 +60,5 @@ will print out
 
 ## Citation
 Cite this work
-    Mingyu Woo, Seungwon Kim and Seokhyeong Kang, "GRASP based Metaheuristics for Layout Pattern Classification", Proc. IEEE/ACM International Conference on Computer-Aided Design, 2017, pp. 512-518.
+
+Mingyu Woo, Seungwon Kim and Seokhyeong Kang, "GRASP based Metaheuristics for Layout Pattern Classification", Proc. IEEE/ACM International Conference on Computer-Aided Design, 2017, pp. 512-518.
