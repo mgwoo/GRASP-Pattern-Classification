@@ -11,7 +11,10 @@ will print out all usages
 
 ## Usage Example 
     // testcase4 with 250 X 250, ACC 100% and 8 Threads.
-    $ ./patternClassify -input ../testcase/testcase4/testcase4.gds -output ../Output/testcase4.gds -mt 8 -acc 100 -cwidth 250 -cheight 250
+    $ ./patternClassify -input ../testcase/testcase4/testcase4.gds -output ../Output/testcase4.gds -mt 8 -acc 1.00 -cwidth 250 -cheight 250
+    
+    // testcase4 with 250 X 250, ACC 95% and 8 Threads.
+    $ ./patternClassify -input ../testcase/testcase4/testcase4.gds -output ../Output/testcase4.gds -mt 8 -acc 0.95 -cwidth 250 -cheight 250
     
     // testcase2 with 200 X 200, ECC 2nm and 8 Threads.
     $ ./patternClassify -input ../testcase/testcase2/testcase2.gds -output ../Output/testcase2.gds -mt 8 -ecc 2 -cwidth 200 -cheight 200
